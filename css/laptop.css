@@ -1,0 +1,136 @@
+@media (max-width: 1500px) {
+    .shop_section {
+        padding: 32px;
+        justify-content: baseline;
+    }
+
+
+
+}
+
+@media(max-width:1300px) {
+    .index_section3 {
+        padding-left: 40px;
+    }
+
+}
+
+@media (max-width:1250px) {
+    .index_div_articles {
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+
+
+}
+
+@media (max-width: 1165px) {
+
+    header {
+        padding: 25px 30px;
+    }
+
+    .burger_menu {
+        display: block;
+        
+
+    }
+
+    .header_nav {
+        background-color: coral;
+        position: fixed;
+        top: 122.4px;
+        left: -100%;
+        width: 50%;
+        padding: 30px;
+        transition: .5s linear;
+    }
+
+    .nav_ul {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .show {
+        left: 0;
+    }
+}
+
+
+
+footer {
+    padding: 80px 32px;
+}
+
+
+
+
+
+.for_none {
+    display: none;
+}
+
+/* end of page 2  */
+
+
+/* start of page 3 */
+
+
+
+.full_contact_div {
+    margin: 120px 116px;
+}
+
+
+
+@media (max-width: 1055px) {
+    .shop_section {
+        padding: 24px;
+    }
+}
+
+
+@media(max-width: 1025px) {
+    .banner_container_page_3 {
+        padding: 160px 32px;
+
+    }
+
+    .feedback {
+        margin-left: 32px;
+    }
+
+    .full_contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contact_text_container {
+        flex-direction: row;
+
+    }
+
+    .maps {
+        width: 696px;
+        height: 320px;
+
+    }
+
+    .contact_text_container {
+        display: none;
+    }
+
+    .hide_contact_text_container {
+        display: block;
+        display: flex;
+        gap: 72px;
+
+    }
+
+    .full_contact_div {
+        width: 100%;
+        margin: 120px 20px;
+        margin-inline: auto;
+    }
+}
